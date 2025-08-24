@@ -19,7 +19,7 @@ Analyze Trends: By comparing past results, you can notice changes in traits over
 
 
 ## Tech Stack:
-- Architecture: MVVM (Model–View–ViewModel) for separation of UI, logic, and data.
+- Architecture: MVVM (Model View ViewModel) for separation of UI, logic, and data.
 - UI Layer: Jetpack Compose (Material Design components, Compose Navigation).
 - Data Layer: SharedPreferences for local persistence.
 - Logic Layer: Custom scoring engine + attempt tracking with date, result, and category scores.
