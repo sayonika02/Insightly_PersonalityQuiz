@@ -1,6 +1,6 @@
-package com.example.personalityquiz.data
+package com.sd.personalityquiz.data
 
-import com.example.personalityquiz.model.Question
+import com.sd.personalityquiz.model.Question
 
 object QuizRepository {
     fun getQuestions(): List<Question> {

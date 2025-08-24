@@ -1,8 +1,8 @@
-package com.example.personalityquiz.data
+package com.sd.personalityquiz.data
 
-import com.example.personalityquiz.data.local.AppDatabase
-import com.example.personalityquiz.data.local.Converters
-import com.example.personalityquiz.data.local.QuizResult
+import com.sd.personalityquiz.data.local.AppDatabase
+import com.sd.personalityquiz.data.local.Converters
+import com.sd.personalityquiz.data.local.QuizResult
 import kotlinx.coroutines.flow.Flow
 
 class QuizResultRepository(private val db: AppDatabase) {

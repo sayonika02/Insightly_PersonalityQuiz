@@ -1,4 +1,4 @@
-package com.example.personalityquiz.data.local
+package com.sd.personalityquiz.data.local
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson

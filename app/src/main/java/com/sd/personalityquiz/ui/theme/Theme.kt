@@ -1,4 +1,4 @@
-package com.example.personalityquiz.ui.theme
+package com.sd.personalityquiz.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.*

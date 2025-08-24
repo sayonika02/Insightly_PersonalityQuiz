@@ -1,12 +1,12 @@
-package com.example.personalityquiz.viewmodel
+package com.sd.personalityquiz.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.personalityquiz.data.QuizResultRepository
-import com.example.personalityquiz.data.local.AppDatabase
-import com.example.personalityquiz.data.local.Converters
-import com.example.personalityquiz.data.local.QuizResult
+import com.sd.personalityquiz.data.QuizResultRepository
+import com.sd.personalityquiz.data.local.AppDatabase
+import com.sd.personalityquiz.data.local.Converters
+import com.sd.personalityquiz.data.local.QuizResult
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map

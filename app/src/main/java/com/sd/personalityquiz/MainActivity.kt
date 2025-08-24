@@ -1,4 +1,4 @@
-package com.example.personalityquiz
+package com.sd.personalityquiz
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,12 +7,12 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.*
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.personalityquiz.data.QuizRepository
-import com.example.personalityquiz.ui.HistoryScreen
-import com.example.personalityquiz.ui.QuizScreen
-import com.example.personalityquiz.ui.ResultScreen
-import com.example.personalityquiz.ui.theme.PersonalityQuizTheme
-import com.example.personalityquiz.viewmodel.HistoryViewModel
+import com.sd.personalityquiz.data.QuizRepository
+import com.sd.personalityquiz.ui.HistoryScreen
+import com.sd.personalityquiz.ui.QuizScreen
+import com.sd.personalityquiz.ui.ResultScreen
+import com.sd.personalityquiz.ui.theme.PersonalityQuizTheme
+import com.sd.personalityquiz.viewmodel.HistoryViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

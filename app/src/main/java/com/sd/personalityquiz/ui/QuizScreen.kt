@@ -1,4 +1,4 @@
-package com.example.personalityquiz.ui
+package com.sd.personalityquiz.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -6,15 +6,15 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.personalityquiz.model.Question
+import com.sd.personalityquiz.model.Question
 
 @Composable
 fun QuizScreen(
     questions: List<Question>,
     onQuizComplete: (totalScore: Int, categoryScores: Map<String, Int>) -> Unit
 ) {
-    var index by remember { mutableIntStateOf(0) }
-    var total by remember { mutableIntStateOf(0) }
+    var index by remember { mutableIntStateOf(0) }  //to keep track of question when UI changes
+    var total by remember { mutableIntStateOf(0) }  //to track score so far
     val categoryTotals = remember { mutableStateMapOf<String, Int>() }
 
     val q = questions[index]

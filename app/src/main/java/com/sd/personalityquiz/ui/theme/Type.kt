@@ -1,4 +1,4 @@
-package com.example.personalityquiz.ui.theme
+package com.sd.personalityquiz.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

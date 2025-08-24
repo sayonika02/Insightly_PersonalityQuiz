@@ -1,7 +1,7 @@
-package com.example.personalityquiz.data
+package com.sd.personalityquiz.data
 
 import android.content.Context
-import com.example.personalityquiz.model.QuizAttempt
+import com.sd.personalityquiz.model.QuizAttempt
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 

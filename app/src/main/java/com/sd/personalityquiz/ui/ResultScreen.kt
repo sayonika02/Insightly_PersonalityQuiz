@@ -1,4 +1,4 @@
-package com.example.personalityquiz.ui
+package com.sd.personalityquiz.ui
 
 import android.content.Context
 import androidx.compose.foundation.layout.*
@@ -8,8 +8,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.example.personalityquiz.data.HistoryStorage
-import com.example.personalityquiz.model.QuizAttempt
+import com.sd.personalityquiz.data.HistoryStorage
+import com.sd.personalityquiz.model.QuizAttempt
 import java.time.LocalDate
 
 @Composable

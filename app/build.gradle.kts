@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.personalityquiz"
+    namespace = "com.sd.personalityquiz"
     compileSdk = 36
 
     defaultConfig {

@@ -1,4 +1,4 @@
-package com.example.personalityquiz.data.local
+package com.sd.personalityquiz.data.local
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

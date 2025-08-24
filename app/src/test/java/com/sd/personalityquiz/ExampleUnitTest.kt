@@ -1,4 +1,4 @@
-package com.example.personalityquiz
+package com.sd.personalityquiz
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.personalityquiz.model
+package com.sd.personalityquiz.model
 
 data class Question(
     val text: String,

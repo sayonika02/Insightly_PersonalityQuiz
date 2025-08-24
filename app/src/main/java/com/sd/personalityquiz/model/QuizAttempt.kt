@@ -1,4 +1,4 @@
-package com.example.personalityquiz.model
+package com.sd.personalityquiz.model
 
 data class QuizAttempt(
     val date: String,                       //"2025-08-23"
