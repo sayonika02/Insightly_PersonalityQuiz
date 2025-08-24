@@ -1,3 +1,4 @@
+## Intro:
 _Insightly is a personality quiz app that not only helps you discover your personality type but also tracks your results over time. This allows you to analyze how your traits evolve with repeated attempts._
 
 ## Instructions:
